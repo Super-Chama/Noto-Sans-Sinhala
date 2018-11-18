@@ -1,0 +1,576 @@
+@font-face {
+    font-family: 'Noto Sans Sinhala Cond';
+    src: url('subset-NotoSansSinhala-CondensedBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-CondensedBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemCond SemBd';
+    src: url('subset-NotoSansSinhalaUI-SemiCondensedSemiBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-SemiCondensedSemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtCond';
+    src: url('subset-NotoSansSinhalaUI-ExtraCondensedLight.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-ExtraCondensedLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Med';
+    src: url('subset-NotoSansSinhala-Medium.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemBd';
+    src: url('subset-NotoSansSinhala-SemiBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Cond Blk';
+    src: url('subset-NotoSansSinhala-CondensedBlack.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-CondensedBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Cond ExtLt';
+    src: url('subset-NotoSansSinhala-CondensedExtraLight.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-CondensedExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Cond';
+    src: url('subset-NotoSansSinhala-CondensedLight.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-CondensedLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala UI';
+    src: url('subset-NotoSansSinhalaUI-Bold.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Cond ExtLt';
+    src: url('subset-NotoSansSinhalaUI-CondensedExtraLight.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-CondensedExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala UI';
+    src: url('subset-NotoSansSinhalaUI-Regular.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemCond ExtLt';
+    src: url('subset-NotoSansSinhala-SemiCondensedExtraLight.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-SemiCondensedExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemCond ExtBd';
+    src: url('subset-NotoSansSinhala-SemiCondensedExtraBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-SemiCondensedExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemCond Med';
+    src: url('subset-NotoSansSinhala-SemiCondensedMedium.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-SemiCondensedMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Cond';
+    src: url('subset-NotoSansSinhala-CondensedThin.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-CondensedThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala';
+    src: url('subset-NotoSansSinhala-Thin.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala';
+    src: url('subset-NotoSansSinhala-Bold.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtCond';
+    src: url('subset-NotoSansSinhala-ExtraCondensedLight.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-ExtraCondensedLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtCond';
+    src: url('subset-NotoSansSinhala-ExtraCondensedThin.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-ExtraCondensedThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemBd';
+    src: url('subset-NotoSansSinhalaUI-SemiBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemCond SemBd';
+    src: url('subset-NotoSansSinhala-SemiCondensedSemiBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-SemiCondensedSemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtCond Blk';
+    src: url('subset-NotoSansSinhalaUI-ExtraCondensedBlack.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-ExtraCondensedBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala';
+    src: url('subset-NotoSansSinhala-Regular.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Cond Med';
+    src: url('subset-NotoSansSinhala-CondensedMedium.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-CondensedMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtCond';
+    src: url('subset-NotoSansSinhala-ExtraCondensedBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-ExtraCondensedBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtCond ExtBd';
+    src: url('subset-NotoSansSinhala-ExtraCondensedExtraBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-ExtraCondensedExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemCond Blk';
+    src: url('subset-NotoSansSinhalaUI-SemiCondensedBlack.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-SemiCondensedBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemCond ExtBd';
+    src: url('subset-NotoSansSinhalaUI-SemiCondensedExtraBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-SemiCondensedExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemCond';
+    src: url('subset-NotoSansSinhalaUI-SemiCondensed.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-SemiCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Blk';
+    src: url('subset-NotoSansSinhalaUI-Black.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemCond';
+    src: url('subset-NotoSansSinhala-SemiCondensedBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-SemiCondensedBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Cond SemBd';
+    src: url('subset-NotoSansSinhala-CondensedSemiBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-CondensedSemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtCond SemBd';
+    src: url('subset-NotoSansSinhalaUI-ExtraCondensedSemiBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-ExtraCondensedSemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtBd';
+    src: url('subset-NotoSansSinhalaUI-ExtraBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemCond';
+    src: url('subset-NotoSansSinhala-SemiCondensedThin.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-SemiCondensedThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtCond ExtLt';
+    src: url('subset-NotoSansSinhalaUI-ExtraCondensedExtraLight.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-ExtraCondensedExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemCond';
+    src: url('subset-NotoSansSinhalaUI-SemiCondensedThin.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-SemiCondensedThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtCond ExtBd';
+    src: url('subset-NotoSansSinhalaUI-ExtraCondensedExtraBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-ExtraCondensedExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Cond';
+    src: url('subset-NotoSansSinhalaUI-CondensedLight.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-CondensedLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtCond Blk';
+    src: url('subset-NotoSansSinhala-ExtraCondensedBlack.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-ExtraCondensedBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtCond';
+    src: url('subset-NotoSansSinhalaUI-ExtraCondensedBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-ExtraCondensedBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtCond SemBd';
+    src: url('subset-NotoSansSinhala-ExtraCondensedSemiBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-ExtraCondensedSemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtCond ExtLt';
+    src: url('subset-NotoSansSinhala-ExtraCondensedExtraLight.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-ExtraCondensedExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtLt';
+    src: url('subset-NotoSansSinhalaUI-ExtraLight.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtCond Med';
+    src: url('subset-NotoSansSinhala-ExtraCondensedMedium.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-ExtraCondensedMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemCond';
+    src: url('subset-NotoSansSinhalaUI-SemiCondensedBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-SemiCondensedBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemCond Med';
+    src: url('subset-NotoSansSinhalaUI-SemiCondensedMedium.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-SemiCondensedMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Med';
+    src: url('subset-NotoSansSinhalaUI-Medium.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Cond Blk';
+    src: url('subset-NotoSansSinhalaUI-CondensedBlack.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-CondensedBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemCond';
+    src: url('subset-NotoSansSinhalaUI-SemiCondensedLight.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-SemiCondensedLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemCond';
+    src: url('subset-NotoSansSinhala-SemiCondensedLight.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-SemiCondensedLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Cond SemBd';
+    src: url('subset-NotoSansSinhalaUI-CondensedSemiBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-CondensedSemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala';
+    src: url('subset-NotoSansSinhalaUI-Thin.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtLt';
+    src: url('subset-NotoSansSinhala-ExtraLight.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtBd';
+    src: url('subset-NotoSansSinhala-ExtraBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtCond';
+    src: url('subset-NotoSansSinhalaUI-ExtraCondensedThin.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-ExtraCondensedThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Blk';
+    src: url('subset-NotoSansSinhala-Black.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Cond';
+    src: url('subset-NotoSansSinhalaUI-CondensedThin.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-CondensedThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Cond';
+    src: url('subset-NotoSansSinhala-Condensed.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-Condensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Cond';
+    src: url('subset-NotoSansSinhalaUI-Condensed.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-Condensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtCond Med';
+    src: url('subset-NotoSansSinhalaUI-ExtraCondensedMedium.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-ExtraCondensedMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala';
+    src: url('subset-NotoSansSinhalaUI-Light.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtCond';
+    src: url('subset-NotoSansSinhala-ExtraCondensed.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-ExtraCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemCond ExtLt';
+    src: url('subset-NotoSansSinhalaUI-SemiCondensedExtraLight.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-SemiCondensedExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemCond Blk';
+    src: url('subset-NotoSansSinhala-SemiCondensedBlack.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-SemiCondensedBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala';
+    src: url('subset-NotoSansSinhala-Light.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Cond ExtBd';
+    src: url('subset-NotoSansSinhala-CondensedExtraBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-CondensedExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala ExtCond';
+    src: url('subset-NotoSansSinhalaUI-ExtraCondensed.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-ExtraCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Cond Med';
+    src: url('subset-NotoSansSinhalaUI-CondensedMedium.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-CondensedMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Cond';
+    src: url('subset-NotoSansSinhalaUI-CondensedBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-CondensedBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala Cond ExtBd';
+    src: url('subset-NotoSansSinhalaUI-CondensedExtraBold.woff2') format('woff2'),
+        url('subset-NotoSansSinhalaUI-CondensedExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Sinhala SemCond';
+    src: url('subset-NotoSansSinhala-SemiCondensed.woff2') format('woff2'),
+        url('subset-NotoSansSinhala-SemiCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
