@@ -26,8 +26,9 @@ https://super-chama.github.io/Noto-Sans-Sinhala/
 >          src: url('https://rawcdn.githack.com/Super-Chama/Noto-Sans-Sinhala/ac4ea0c396c66aedd8dcb9a60a846ee36da6c7f3/Webfont/subset-NotoSansSinhala-CondensedExtraLight.woff') format('woff'), 
 >          url('https://rawcdn.githack.com/Super-Chama/Noto-Sans-Sinhala/ac4ea0c396c66aedd8dcb9a60a846ee36da6c7f3/Webfont/subset-NotoSansSinhala-CondensedExtraLight.woff2') format('woff2'); 
 >          }
-	> 	3 - You can use the added font in your styles as follows.
-	> 
+
+3 - You can use the added font in your styles as follows.
+
 >     .your-style {
 >     font-family: 'Noto Sans Sinhala ExtLt';
 >      }
