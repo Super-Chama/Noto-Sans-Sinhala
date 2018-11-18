@@ -4,6 +4,9 @@ Replicate Repository of Googles noto sans for sinhala unicode with cdn.
 Web fonts generated with -  [Transfonter](https://transfonter.org/)
 Original TTF fonts - [Google get noto](https://www.google.com/get/noto/#sans-sinh)
 
+# Demo Page
+https://super-chama.github.io/Noto-Sans-Sinhala/
+
 # Usage
 - Get CDN Link
 1- Open repository, locate webfonts folder
